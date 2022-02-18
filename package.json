@@ -1,0 +1,22 @@
+{
+  "name": "home_assignment",
+  "main": "index.js",
+  "scripts": {
+    "to_the_moon": "mocha tests/collections/** --opts ./mocha.opts"
+  },
+  "author": "Oleksandr Kulagin",
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "superagent": "^5.1.0",
+    "superagent-proxy": "^2.1.0",
+    "superagent-retry-delay": "^2.6.5",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "ajv": "^8.10.0",
+    "chai": "^4.3.6",
+    "request": "^2.88.2",
+    "superagent-retry-delay": "^2.3.0",
+    "winston": "^3.6.0"
+  }
+}
